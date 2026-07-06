@@ -1,4 +1,4 @@
-const API_URL = "upbeat-insight-production-75ab.up.railway.app/api/transactions";
+const API_URL = "https://upbeat-insight-production-75ab.up.railway.app/api/transactions";
 
 
 
