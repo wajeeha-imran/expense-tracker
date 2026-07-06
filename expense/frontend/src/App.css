@@ -17,9 +17,7 @@ body{
   padding:40px 20px;
 }
 
-/* =====================
-TITLE
-======================*/
+
 
 .title{
   text-align:center;
@@ -29,9 +27,7 @@ TITLE
   font-weight:700;
 }
 
-/* =====================
-SUMMARY CARDS
-======================*/
+
 
 .summary{
   display:flex;
@@ -76,9 +72,7 @@ SUMMARY CARDS
   font-size:34px;
 }
 
-/* =====================
-FORM
-======================*/
+
 
 .transaction-form{
   display:flex;
@@ -123,9 +117,6 @@ FORM
   transform:scale(1.04);
 }
 
-/* =====================
-HISTORY
-======================*/
 
 .history-header{
   display:flex;
@@ -151,9 +142,7 @@ HISTORY
   background:#0876c5;
 }
 
-/* =====================
-TRANSACTION CARD
-======================*/
+
 
 .history-container{
   display:flex;
@@ -206,9 +195,7 @@ TRANSACTION CARD
   color:#d63031;
 }
 
-/* =====================
-BUTTONS
-======================*/
+
 
 .history-actions{
   display:flex;
@@ -241,9 +228,7 @@ BUTTONS
   background:#c0392b;
 }
 
-/* =====================
-EMPTY STATE
-======================*/
+
 
 .empty-history{
   background:white;
@@ -262,9 +247,7 @@ EMPTY STATE
   color:#999;
 }
 
-/* =====================
-RESPONSIVE
-======================*/
+
 
 @media(max-width:768px){
 
