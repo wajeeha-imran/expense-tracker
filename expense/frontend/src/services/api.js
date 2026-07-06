@@ -1,5 +1,5 @@
-const API_URL = "https://upbeat-insight-production-75ab.up.railway.app/api/transactions";
-
+const API_URL =
+  "https://upbeat-insight-production-75ab.up.railway.app/api/transactions";
 
 
 export const getTransactions = async () => {
@@ -30,7 +30,6 @@ export const getBalance = async () => {
     return await response.json();
   } catch (error) {
     console.error(error);
-
     return {
       balance: 0,
     };
@@ -80,6 +79,7 @@ export const updateTransaction = async (id, transaction) => {
     console.error(error);
   }
 };
+
 
 
 export const deleteTransaction = async (id) => {
