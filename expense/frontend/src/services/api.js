@@ -1,8 +1,6 @@
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = "upbeat-insight-production-75ab.up.railway.app/api/transactions";
 
-/* ===========================
-   GET ALL TRANSACTIONS
-=========================== */
+
 
 export const getTransactions = async () => {
   try {
@@ -19,9 +17,7 @@ export const getTransactions = async () => {
   }
 };
 
-/* ===========================
-   GET BALANCE
-=========================== */
+
 
 export const getBalance = async () => {
   try {
@@ -41,9 +37,7 @@ export const getBalance = async () => {
   }
 };
 
-/* ===========================
-   ADD TRANSACTION
-=========================== */
+
 
 export const addTransaction = async (transaction) => {
   try {
@@ -65,9 +59,7 @@ export const addTransaction = async (transaction) => {
   }
 };
 
-/* ===========================
-   UPDATE TRANSACTION
-=========================== */
+
 
 export const updateTransaction = async (id, transaction) => {
   try {
@@ -89,9 +81,6 @@ export const updateTransaction = async (id, transaction) => {
   }
 };
 
-/* ===========================
-   DELETE TRANSACTION
-=========================== */
 
 export const deleteTransaction = async (id) => {
   try {
